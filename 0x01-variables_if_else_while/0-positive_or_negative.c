@@ -22,7 +22,7 @@ int main(void)
 
 					/* your code goes there */
 				while ( n != 0 ) {
-					if (a > 0) {
+					if (n > 0) {
 						printf("is positive\n");
 					} else {
 						printf("is negative\n");
