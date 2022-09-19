@@ -30,14 +30,14 @@ int main(void)
 
 				if (digit > 5)
 				{
-					printf("the last digit of %d is %d and is greater than 5\n", n, digit);
+					printf("last digit of %d is %d and is greater than 5\n", n, digit);
 				} else if (digit == 0)
 				{
-					printf("the last digit of %d is %d and is 0\n", n, digit);
+					printf("last digit of %d is %d and is 0\n", n, digit);
 				} else
 				{
-					printf("the last digit of %d is", n);
-					       printf("%d and is less than 6 and is not 0\n", digit);
+					printf("last digit of %d is", n);
+					       printf("%d and is less than 6 and not 0\n", digit);
 				}
 
 				return (0);
