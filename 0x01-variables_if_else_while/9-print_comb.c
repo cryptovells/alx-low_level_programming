@@ -19,7 +19,7 @@ int main(void)
 
 	i = 0;
 
-	while (i <= 10)
+	if (i <= 10)
 	{
 
 		putchar(i + '0');
@@ -28,8 +28,10 @@ int main(void)
 		i++;
 
 	}
-
+	else
+	{
 	putchar('\n');
+	}
 
 	return (0);
 }
