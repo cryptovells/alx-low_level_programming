@@ -16,8 +16,6 @@
  *
  */
 
-#include "main"
-
 int main(void)
 {
 	char ch = 'a';
