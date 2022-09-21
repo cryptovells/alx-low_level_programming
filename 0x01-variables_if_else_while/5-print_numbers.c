@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 
+
 /* more headers goes there */
-
-
 
 /* betty style doc for function main goes there */
 
@@ -16,18 +15,17 @@
  *
  */
 
-#include "main"
-
 int main(void)
-{
-	char ch = 'a';
 
-	while (ch <= 'z' && ch != 'e' && ch != 'q')
+{
+	int a = 0;
+
+	while (a < 10)
 	{
-		putchar(ch);
-		ch++;
+		printf("%d", a);
+		a++;
 	}
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
