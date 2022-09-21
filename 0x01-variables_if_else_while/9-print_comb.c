@@ -19,15 +19,17 @@ int main(void)
 
 	i = 0;
 
-	while (i != 9)
+	if (i < 9)
 	{
 		putchar(i + '0');
 		putchar(',');
 		putchar(' ');
 		i++;
 	}
-
+	else
+	{
 	putchar('9');
+	}
 
 	return (0);
 }
