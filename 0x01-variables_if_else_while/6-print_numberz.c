@@ -4,9 +4,8 @@
 
 /* more headers goes there */
 
-
-
 /* betty style doc for function main goes there */
+
 
 
 /**
@@ -16,14 +15,19 @@
  *
  */
 
-int main(void)
-{
-	char ch = 'a';
 
-	while (ch <= 'z' || ch != 'e' || ch != 'q')
+
+int main(void)
+
+{
+	int i;
+
+	i = 0;
+
+	while (i <= 0)
 	{
-		putchar(ch);
-		ch++;
+		putchar(i + '0');
+		i++;
 	}
 	putchar('\n');
 

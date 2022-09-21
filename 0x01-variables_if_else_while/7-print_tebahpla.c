@@ -4,10 +4,7 @@
 
 /* more headers goes there */
 
-
-
 /* betty style doc for function main goes there */
-
 
 /**
  * main - Entry point
@@ -18,14 +15,16 @@
 
 int main(void)
 {
-	char ch = 'a';
+	char ch;
 
-	while (ch <= 'z' || ch != 'e' || ch != 'q')
-	{
-		putchar(ch);
-		ch++;
-	}
-	putchar('\n');
+	ch = 'z';
 
-	return (0);
+		while (ch >= 'a')
+		{
+			putchar(ch);
+			ch--;
+		}
+		putchar('\n');
+
+		return (0);
 }
