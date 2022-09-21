@@ -6,8 +6,6 @@
 
 /* betty style doc for function main goes there */
 
-
-
 /**
  * main - Entry point
  *
@@ -15,19 +13,25 @@
  *
  */
 
-
-
 int main(void)
-
 {
 	int i;
 
+	char ch;
+
 	i = 0;
+
+	ch = 'a';
 
 	while (i <= 10)
 	{
 		putchar(i + '0');
 		i++;
+	}
+	while (ch <= 'f')
+	{
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 

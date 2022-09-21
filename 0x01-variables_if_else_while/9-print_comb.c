@@ -6,8 +6,6 @@
 
 /* betty style doc for function main goes there */
 
-
-
 /**
  * main - Entry point
  *
@@ -15,10 +13,7 @@
  *
  */
 
-
-
 int main(void)
-
 {
 	int i;
 
@@ -27,6 +22,7 @@ int main(void)
 	while (i <= 10)
 	{
 		putchar(i + '0');
+		putchar(',');
 		i++;
 	}
 	putchar('\n');
