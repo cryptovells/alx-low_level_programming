@@ -18,12 +18,16 @@
 
 int main(void)
 {
-	char ch = 'a';
+	char ch;
 
-	while (ch <= 'z' &&  ch != 'e' || ch != 'q')
+	for (ch = 'a'; ch <= 'z'; ch++)
+
 	{
-		putchar(ch);
-		ch++;
+		if (ch == 'e' || ch == 'q')
+	{
+		continue;
+	}
+	putchar(ch);
 	}
 	putchar('\n');
 
